@@ -5,6 +5,7 @@ export default function Test2() {
 
     const increment = () =>{
         setcount(count + 1);
+        console.log(count);
     }
 
   return (
